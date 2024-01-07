@@ -50,6 +50,5 @@ análisis descriptivo, y visualizaciones para facilitar la comprensión de las c
 
 ## Script 2. model_prediction.py
 
-Este script contiene funciones para la evaluación y comparación de modelos de aprendizaje automático en un contexto de clasificación. Las funciones proporcionan herramientas detalladas para analizar el rendimiento de los modelos a través de varias métricas, incluyendo precisión, recall, curvas ROC y Precision-Recall, así como gráficos informativos. Estas funciones son esenciales para la evaluación objetiva de modelos en aplicaciones de e-commerce, donde es crucial predecir la conversión de usuarios a clientes de manera precisa.
-
+Contiene funciones para la evaluación y comparación de modelos de aprendizaje automático en un contexto de clasificación. Las funciones proporcionan herramientas detalladas para analizar el rendimiento de los modelos a través de varias métricas, incluyendo precisión, recall, curvas ROC y Precision-Recall, así como gráficos informativos.
 
