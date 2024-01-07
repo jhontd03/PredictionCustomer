@@ -43,12 +43,12 @@ En este notebook se desarrolla la segunda fase del diseño e implementación del
 
 En este notebook se desarrolla la tercera fase del diseño e implementación del trabajo de fin de máster. En la sección 2 se realiza el proceso de selección de características. Para ello se determina el mejor modelo de ensamble de referencia (que tienen integrado funcionalidades de ranking de características) y sobre este se aplica la técnica RFE (Recursive Feature Elimination), para seleccionar las variables más relevantes. En la sección 3 se desarrolla el primer método para la generación de modelos predictivos. Dicho método se conoce como muestreo, el cual tiene diferentes técnicas que permite balancear las clases de la variable objetivo. Para determinar las mejores técnicas, en primer lugar, se seleccionan los mejores modelos de clasificación. Luego a los mejores modelos se les aplica diferentes métodos de muestreo. Sobre los mejores modelos obtenidos se optimiza hiperparámetros, entrenan y evalúan. En la sección 4 se desarrolla el segundo método de generación de modelos predictivos basado en ensamble. Para ello se determinan los mejores modelos y posteriormente se optimiza hiperparámetros, entrenan y evalúan. En la sección 5 se aplica el tercer y último método para generar modelos predictivos que se basa en el concepto de Cost-sensitive learning (CSL). En este caso se usaron los modelos de ensamble que obtuvieron el mejor desempeño en la sección 2 y que tienen integrado la funcionalidad (CSL). Posteriormente en la sección 6, se generan un modelo final basado en la técnica de voting, donde se incluyen los modelos que mejor se desempeñaron en las secciones anteriores. En la sección 7 se hace un consolidado de las métricas más relevantes de los modelos obtenidos y su respectivo análisis. Finalmente, la Sección 9 recoge las conclusiones más significativas derivadas del estudio realizado en este notebook.
 
-## Script etl_process.py
+## Script 1. etl_process.py
 
 Contiene funciones para el preprocesamiento y análisis exploratorio de datos, donde se incluyen funciones para el tratamiento de valores nulos, transformaciones de datos, normalización,
 análisis descriptivo, y visualizaciones para facilitar la comprensión de las características  del conjunto de datos.
 
-## Script model_prediction.py
+## Script 2. model_prediction.py
 
 Este script contiene funciones para la evaluación y comparación de modelos de aprendizaje automático en un contexto de clasificación. Las funciones proporcionan herramientas detalladas para analizar el rendimiento de los modelos a través de varias métricas, incluyendo precisión, recall, curvas ROC y Precision-Recall, así como gráficos informativos. Estas funciones son esenciales para la evaluación objetiva de modelos en aplicaciones de e-commerce, donde es crucial predecir la conversión de usuarios a clientes de manera precisa.
 
