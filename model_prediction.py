@@ -1,3 +1,20 @@
+"""
+Este script contiene funciones para la evaluación y comparación de modelos de aprendizaje automático en un contexto de clasificación. Las funciones proporcionan herramientas detalladas para analizar el rendimiento de los modelos a través de varias métricas, incluyendo precisión, recall, curvas ROC y Precision-Recall, así como gráficos informativos. Estas funciones son esenciales para la evaluación objetiva de modelos en aplicaciones de e-commerce, donde es crucial predecir la conversión de usuarios a clientes de manera precisa.
+
+El script utiliza bibliotecas como pandas para manipulación de datos, matplotlib y seaborn para visualizaciones, y scikit-learn para métricas de evaluación del modelo. Las funciones están diseñadas para ser flexibles y permitir la evaluación detallada de una variedad de modelos de clasificación.
+
+Funciones:
+- report: Genera un informe detallado del rendimiento del modelo, incluyendo métricas clave y gráficos.
+- model_memory_size: Calcula el tamaño en memoria del modelo.
+- confusion_plot: Crea un gráfico de la matriz de confusión.
+- feature_importance_plot: Muestra un gráfico de la importancia de las características del modelo.
+- roc_plot: Genera la curva ROC para evaluar la capacidad discriminativa del modelo.
+- precision_recall_plot: Crea un gráfico de la curva Precision-Recall.
+- compare_models: Compara diferentes modelos en base a una métrica específica.
+
+Las funciones son versátiles y pueden ser utilizadas para modelos de clasificación en una variedad de contextos de datos, proporcionando una comprensión clara y precisa del rendimiento del modelo.
+"""
+
 # Adaptado de: https://www.kaggle.com/code/para24/survival-prediction-using-cost-sensitive-learning
 
 import sys 
