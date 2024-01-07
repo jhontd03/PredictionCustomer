@@ -1,5 +1,3 @@
-# Prediction Custome.
-
 | Título del trabajo                                 | Técnicas de aprendizaje automático aplicadas en la predicción de potenciales compradores en un e-commerce de productos empresariales en Colombia. |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Nombre del autor/a                                | Jhon Jairo Realpe                                                                                                             |
@@ -18,6 +16,7 @@ En el presente repositorio se presenta la fase de diseño e implementación asoc
 Para abordar este desafío, se aplicaron y evaluaron diversas técnicas de aprendizaje automático y se adoptó la metodología CRISP-DM para su desarrollo, abordando únicamente cinco de las seis fases, que se describen a continuación. 1) Comprender los retos comerciales y definir objetivos de predicción y retención, 2) analizar la calidad de los datos considerando diversas fuentes, 2) Preparar los datos mediante limpieza y transformación, 4) Implementar técnicas de aprendizaje automático para construir modelos predictivos y 5) Evaluar el rendimiento y comparar la efectividad de los modelos.
 Los resultados obtenidos demuestran una exploración en profundidad de las técnicas y modelos de aprendizaje automático aplicados a la predicción de compradores, ofreciendo así una contribución significativa al campo de la ciencia de datos en el comercio electrónico. Adicionalmente, este trabajo no solo proporciona una aproximación analítica, sino que además demuestra como un enfoque basado en datos y técnicas avanzadas de análisis, puede contribuir a las empresas en la toma de decisiones y promover mejores estrategias de crecimiento en el mercado digital.
 
+A continuación se describe un resumen del contenido de los notebooks y script implementados.
 
 ## Notebook 1. Proceso de extracción, transformación y análisis exploratorio de datos.
 
