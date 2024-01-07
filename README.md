@@ -1,4 +1,4 @@
-div style="width: 100%; clear: both;">
+<div style="width: 100%; clear: both;">
 <div style="float: left; width: 50%;">
 <img src="https://www.uoc.edu/portal/_resources/common/imatges/marca_UOC/llibre-estil/logo-UOC-masterbrand.jpg", align="left">
 </div>
