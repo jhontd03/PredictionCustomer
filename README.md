@@ -1,3 +1,16 @@
+div style="width: 100%; clear: both;">
+<div style="float: left; width: 50%;">
+<img src="https://www.uoc.edu/portal/_resources/common/imatges/marca_UOC/llibre-estil/logo-UOC-masterbrand.jpg", align="left">
+</div>
+<div style="float: right; width: 50%;">
+<p style="margin: 0; padding-top: 22px; text-align:right;">M2.878 · Trabajo fin de Máster</p>
+<p style="margin: 0; text-align:right;">2023-2 · Máster universitario en Ciencia de datos</p>
+<p style="margin: 0; text-align:right; padding-button: 100px;">Estudios de Informática, Multimedia y Telecomunicación</p>
+</div>
+</div>
+<div style="width:100%;">&nbsp;</div>
+
+
 | Título del trabajo                                 | Técnicas de aprendizaje automático aplicadas en la predicción de potenciales compradores en un e-commerce de productos empresariales en Colombia |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Nombre del autor/a                                | Jhon Jairo Realpe                                                                                                             |
