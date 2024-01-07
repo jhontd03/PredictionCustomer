@@ -1,3 +1,40 @@
+"""
+Este script contiene funciones para el preprocesamiento y análisis exploratorio de datos 
+en un contexto de e-commerce, con el objetivo de predecir la conversión de usuarios a clientes.
+Las funciones incluyen tratamiento de valores nulos, transformaciones de datos, normalización,
+análisis descriptivo, y visualizaciones para facilitar la comprensión de las características 
+del conjunto de datos.
+
+El script se basa en la metodología CRISP-DM y utiliza bibliotecas como pandas, numpy, 
+matplotlib, seaborn, y scikit-learn para el análisis y manipulación de datos. Las funciones 
+permiten realizar operaciones como la limpieza de strings, cambio de nombres de columnas, 
+conteo de valores nulos, normalización de dataframes, y generación de estadísticas descriptivas 
+y gráficos, entre otras.
+
+Funciones:
+- string_split: Limpia strings separados por comas.
+- change_names_cols: Cambia los nombres de las columnas de varios DataFrames.
+- value_counts: Calcula el conteo de tipos de datos en DataFrames.
+- dtypes_feat: Obtiene los tipos de datos de las características en DataFrames.
+- normalize_df: Normaliza filas en DataFrames específicos.
+- null_value_counts: Calcula el conteo de valores nulos en DataFrames.
+- most_common: Encuentra el valor más común en una serie.
+- most_common_count: Calcula la cantidad de valores únicos más comunes en una serie.
+- process_partition_mc: Procesa una partición de datos y calcula estadísticas agregadas por usuario.
+- process_partition_mcc: Calcula la cantidad de valores únicos más comunes por usuario.
+- extract_info_consumos: Procesa una partición de datos y calcula la cantidad de valores únicos más comunes por usuario.
+- info_sesiones: Calcula información relevante sobre las sesiones de un usuario.
+- cols_impute: Imputa valores faltantes en columnas específicas de un DataFrame.
+- compare_hist: Compara las distribuciones de dos conjuntos de datos.
+- impute_num_pred: Imputa valores numéricos faltantes utilizando un modelo de regresión iterativa.
+- impute_cat_pred: Imputa valores categóricos faltantes utilizando un modelo de regresión iterativa.
+- generate_flag_null: Genera columnas de bandera que indican la presencia de valores nulos.
+- extract_cols_impute: Extrae las columnas que contienen valores nulos para su imputación.
+- plot_boxplot_and_hist: Genera gráficos de caja y histogramas para variables numéricas.
+- plot_categorical_bars: Genera gráficos de barras para variables categóricas.
+- describe: Calcula estadísticos descriptivos para cada columna de un DataFrame.
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
