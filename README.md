@@ -1,7 +1,7 @@
 
 # Técnicas de aprendizaje automático aplicadas en la predicción de potenciales compradores en un e-commerce de productos empresariales en Colombia
 
-![e_commerce](https://github.com/jhontd03/PredictionCustomer/blob/master/img/e_commerce.png "e_commerce")
+![e_commerce](https://github.com/jhontd03/PredictionCustomer/blob/master/img/e_commerce.jpg)
 
 ## [Contenido](#Contenido)
 
