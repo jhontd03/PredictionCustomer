@@ -106,7 +106,7 @@ Contiene funciones para la evaluación y comparación de modelos de aprendizaje 
 
 ## Licencia
 
-El código del presente proyecto se distribuye bajo licencia [MIT](https://github.com/jhontd03/accidentapp/blob/master/LICENSE). Por la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), para comerciar con el Software sin restricciones, incluyendo sin limitación los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del Software.
+El código del presente proyecto se distribuye bajo licencia [MIT](https://github.com/jhontd03/PredictionCustomer/blob/master/LICENSE). Por la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), para comerciar con el Software sin restricciones, incluyendo sin limitación los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del Software.
 
 ## Autor
 
